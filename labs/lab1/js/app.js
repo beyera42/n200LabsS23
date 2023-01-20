@@ -1,3 +1,5 @@
+//Date:1/19/2023, Name: Alex Beyer, Class #: N220
+
 //setup area
 function setup() {
     //background shape and color
