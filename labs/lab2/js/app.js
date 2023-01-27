@@ -11,6 +11,25 @@
 //Canvas size: 400x300
 
 //Create an application that draws a circle where the mouse is at. (Use  the P5 variables mouseX and mouseY for this). When the mouse is on the right half of the canvas, draw the circle in red. When the mouse is on the left side of the canvas, draw the circle in blue.
+function setup() {
+    createCanvas(400, 300) //Sets width of canvas to 400px and height to 300px
+    background(0, 200, 200) //Sets color of canvas to an aquamarine/teal color
+}
+
+function draw() {
+    circleo(mouseX, mouseY, 30)
+}
+
+function circleo(x, y) {
+    if (x > 200) {
+        fill(0, 0, 200)
+    } else {
+        fill(200, 0, 0)
+    }
+
+    noStroke()
+    circle(x, y, 50)
+}
 
 //3rd Choice: Ever Larger, until not
 
