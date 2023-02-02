@@ -13,11 +13,11 @@ function setup() {
 
 }
 function draw() {
-    let noRed = removeRed(color(170, 200, 150));
-    circle(300, 300, 200)
-    fill(noRed);
+    let noRed = removeRed(color(170, 200, 150)); //sets up for the removal of the red values of the color
+    circle(300, 300, 200) //creates a circle
+    fill(noRed); //fills the circle with the "removeRed" function
 }
 function removeRed(red) {
-    red.setRed(0)
-    return red
+    red.setRed(0) //sets the red value of the color to 0, or no red
+    return red //ensures this function is successful
 }

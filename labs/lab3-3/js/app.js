@@ -16,17 +16,17 @@
 //Draw a circle at res.x, res.y, and with a radius of 10.
 //(res is technically an 'object', which we will learn more about next week)
 function setup() {
-    createCanvas(600, 600)
-    background(255, 0, 255)
+    createCanvas(600, 600) //sets up a canvas
+    background(255, 0, 255) //turns the background to magenta
 }
 function draw() {
-    var res = polarPoint(80)
-    translate(300, 300)
-    circle(res.x, res.y, 20)
+    var res = polarPoint(80) //sets the radius of the function to 80 px
+    translate(300, 300) //places the function at the center of the canvas
+    circle(res.x, res.y, 20) //creates a shape that follows the function
 
     function polarPoint(r) {
-        let x = r * Math.sin(mouseX)
-        let y = r * Math.cos(mouseX)
-        return createVector(x, y)
+        let x = r * Math.sin(mouseX) //sets x to follow the x position of the mouse and translate that into a position with the sin functions
+        let y = r * Math.cos(mouseX) //sets y to follow the x position of the mouse and translate that into a position with the cos functions
+        return createVector(x, y) //creates the vector
     }
 }
