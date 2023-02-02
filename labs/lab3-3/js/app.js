@@ -15,3 +15,18 @@
 //Add a translate(100,100); line before your drawing methods
 //Draw a circle at res.x, res.y, and with a radius of 10.
 //(res is technically an 'object', which we will learn more about next week)
+function setup() {
+    createCanvas(600, 600)
+    background(255, 0, 255)
+}
+function draw() {
+    var res = polarPoint(80)
+    translate(300, 300)
+    circle(res.x, res.y, 20)
+
+    function polarPoint(r) {
+        let x = r * Math.sin(mouseX)
+        let y = r * Math.cos(mouseX)
+        return createVector(x, y)
+    }
+}
