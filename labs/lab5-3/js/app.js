@@ -1,10 +1,18 @@
-/* Personal Composition
+/* McDiv'ns
 
-Create a composition that, at minimum:
-1. Changes the css property of an asset on a mouse interaction (mouse over, mouse out, click)
-2. Modifies and changes the inner html of one element
-3. Accesses and modifies a variable outside of a local, function scope 
+Put a div on the page. When the div is clicked, append the text "mc" to whatever is in its innerHTML. After 3 clicks, the div will show "mcmcmc" */
 
-Is this a 1, 2, and 3 situation or is this a 1, 2, or 3 one? 
+let mcdDiv = document.getElementById("mcd") //grabs the id for mcd
 
-This might change in the future, but I want to try to replicate something close to the feel of Maya Autodesk, so I would want to have a function that changes the color of a part of the function to a color close to what we see in that program */
+var size = {
+    height: 100,  //defines the starting size of mcd
+    width: 100
+}
+
+mcdDiv.style.height = size.height + "px"
+mcdDiv.style.width = size.width + "px"    //defines the pixels of mcd
+mcdDiv.style.backgroundColor = "#fa020f"
+
+function change() {
+    mcdDiv.innerHTML += "mc"  //uses innerHTML to display "mc" when variable mcd is clicked
+}
