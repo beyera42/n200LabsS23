@@ -1,0 +1,238 @@
+#start{
+
+    background-color: dimgray;
+    color:white;
+    font-size: 48px;
+    height: 50px;
+    width: 800px;
+    font-family: "Computerfont";
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+    flex-direction: column;
+}
+#begin{
+
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    height: 35px;
+    width: 75px;
+    font-family: "Computerfont";
+}
+
+#map{
+    background-color: dimgray;
+    height: 630px;
+    width: 800px;
+}
+#cam{
+    position: absolute;
+    top: 120px;
+    left: 46px;
+    background-color: slategrey;
+    height: 550px;
+    width: 720px;
+}
+#party{
+    position: absolute;
+    top: 210px;
+    left: 170px;
+    border: 2px snow solid;
+    background-color: slategrey;
+    height: 225px;
+    width: 350px;
+}
+#stage{
+    position: absolute;
+    top: 148px;
+    left: 265px;
+    border: 2px snow solid;
+    background-color: slategrey;
+    height: 60px;
+    width: 150px; 
+}
+#service{
+    position: absolute;
+    top: 210px;
+    left: 70px;
+    border: 2px snow solid;
+    background-color: slategrey;
+    height: 60px;
+    width: 60px;
+}
+#BHall{
+    position: absolute;
+    top: 210px;
+    left: 570px;
+    border: 2px snow solid;
+    background-color: slategrey;
+    height: 225px;
+    width: 60px;   
+}
+#LHall{
+    position: absolute;
+    top: 470px;
+    left: 210px;
+    border: 2px snow solid;
+    background-color: slategrey;
+    height: 175px;
+    width: 60px; 
+}
+#WHall{
+    position: absolute;
+    top: 495px;
+    left: 130px;
+    border: 2px snow solid;
+    background-color: slategrey;
+    height: 130px;
+    width: 50px; 
+}
+#RHall{
+    position: absolute;
+    top: 470px;
+    left: 380px;
+    border: 2px snow solid;
+    background-color: slategrey;
+    height: 175px;
+    width: 60px;     
+}
+#kitchen{
+    position: absolute;
+    top: 470px;
+    left: 470px;
+    border: 2px snow solid;
+    background-color: slategrey;
+    height: 130px;
+    width: 150px;     
+}
+#office{
+    position: absolute;
+    top: 580px;
+    left: 290px;
+    border: 2px snow solid;
+    background-color: slategrey;
+    height: 60px;
+    width: 70px;     
+}
+#loading{
+    position: absolute;
+    top: 240px;
+    left: 670px;
+    border: 2px snow solid;
+    background-color: slategrey;
+    height: 50px;
+    width: 50px;
+}
+#connect1{
+    position: absolute;
+    top: 248px;
+    left: 632px;
+    border: 2px snow solid;
+    background-color: slategrey;
+    height: 35px;
+    width: 36px;
+}
+#connect2{
+    position: absolute;
+    top: 224px;
+    left: 132px;
+    border: 2px snow solid;
+    background-color: slategrey;
+    height: 35px;
+    width: 36px;    
+}
+#connect3{
+    position: absolute;
+    top: 224px;
+    left: 522px;
+    border: 2px snow solid;
+    background-color: slategrey;
+    height: 35px;
+    width: 46px;    
+}
+#connect4{
+    position: absolute;
+    top: 437px;
+    left: 391px;
+    border: 2px snow solid;
+    background-color: slategrey;
+    height: 31px;
+    width: 40px;    
+}
+#connect5{
+    position: absolute;
+    top: 437px;
+    left: 221px;
+    border: 2px snow solid;
+    background-color: slategrey;
+    height: 31px;
+    width: 40px; 
+}
+#connect6{
+    position: absolute;
+    top: 437px;
+    left: 476px;
+    border: 2px snow solid;
+    background-color: slategrey;
+    height: 31px;
+    width: 36px; 
+}
+#connect7{
+    position: absolute;
+    top: 502px;
+    left: 182px;
+    border: 2px snow solid;
+    background-color: slategrey;
+    height: 31px;
+    width: 26px; 
+}
+#connect8{
+    position: absolute;
+    top: 588px;
+    left: 182px;
+    border: 2px snow solid;
+    background-color: slategrey;
+    height: 31px;
+    width: 26px; 
+}
+#door1{
+    position: absolute;
+    top: 600px;
+    left: 274px;
+    background-color: #00E000;
+    height: 25px;
+    width: 16px; 
+}
+#door2{
+    position: absolute;
+    top: 600px;
+    left: 364px;
+    background-color: #00E000;
+    height: 25px;
+    width: 16px; 
+}
+#clock{
+    background-color: dimgray;
+    color:white;
+    font-size: 48px;
+    height: 50px;
+    width: 400px;
+    font-family: "Computerfont";
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+    flex-direction: column;
+}
+#power{
+    background-color: dimgray;
+    color:white;
+    font-size: 48px;
+    height: 50px;
+    width: 400px;
+    font-family: "Computerfont";
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+    flex-direction: column;
+}
